@@ -1,0 +1,25 @@
+{
+	"name": "assistcargo-service",
+	"version": "0.0.1",
+	"description": "Assistcargo sender service",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/circulocorp/assistcargo-service.git"
+	},
+	"dependencies": {
+		"dateformat": "^3.0.3",
+		"request-promise": "4.2.2",
+		"request": "2.88.0",
+		"js2xmlparser": "3.0.0",
+		"soap": "latest",
+		"body-parser": "latest",
+		"winston": "3.0.0",
+		"docker-secrets-nodejs": "^1.0.5",
+		"amqplib": "latest",
+		"sync-rest-client": "latest"
+	},
+	"author": "Mauricio Barrera"
+}
